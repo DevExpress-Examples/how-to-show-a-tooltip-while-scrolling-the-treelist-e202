@@ -29,9 +29,9 @@ Namespace WindowsApplication2
 			Me.treeList1 = New DevExpress.XtraTreeList.TreeList()
 			Me.ordersBindingSource = New System.Windows.Forms.BindingSource(Me.components)
 			Me.toolTipController1 = New DevExpress.Utils.ToolTipController(Me.components)
-			Me.nwindDataSet1 = New WindowsApplication2.nwindDataSet1()
-			Me.ordersTableAdapter1 = New WindowsApplication2.nwindDataSet1TableAdapters.OrdersTableAdapter()
-			Me.colCustomerID = New DevExpress.XtraTreeList.Columns.TreeListColumn()
+            Me.nwindDataSet1 = New nwindDataSet1()
+            Me.ordersTableAdapter1 = New nwindDataSet1TableAdapters.OrdersTableAdapter()
+            Me.colCustomerID = New DevExpress.XtraTreeList.Columns.TreeListColumn()
 			Me.colEmployeeID = New DevExpress.XtraTreeList.Columns.TreeListColumn()
 			Me.colOrderDate = New DevExpress.XtraTreeList.Columns.TreeListColumn()
 			Me.colRequiredDate = New DevExpress.XtraTreeList.Columns.TreeListColumn()
@@ -153,7 +153,7 @@ Namespace WindowsApplication2
 		Private colFreight As DevExpress.XtraTreeList.Columns.TreeListColumn
 		Private WithEvents toolTipController1 As DevExpress.Utils.ToolTipController
 		Private nwindDataSet1 As nwindDataSet1
-		Private ordersTableAdapter1 As WindowsApplication2.nwindDataSet1TableAdapters.OrdersTableAdapter
-	End Class
+        Private ordersTableAdapter1 As nwindDataSet1TableAdapters.OrdersTableAdapter
+    End Class
 End Namespace
 
